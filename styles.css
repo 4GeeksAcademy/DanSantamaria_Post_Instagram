@@ -1,0 +1,90 @@
+/* 1. Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Set up del root */
+html {
+  font-size: 14px; /* base para REM */
+  scroll-behavior: smooth;
+}
+
+/* 3. Estilos del body */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #222;
+  background-color: #4f5052;
+  line-height: 1.5; 
+}
+
+/* 5. Imágenes responsivas */
+img {
+  max-width: 100%;
+  display: block;
+  cursor: pointer;
+}
+
+i{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container{
+    background-color:#fafafa;
+    width: 500px;
+    margin: auto;
+    margin-top: 10vh;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(233, 190, 109);
+    transition: all 0.4s ease-out;
+}
+
+.container:hover{
+    box-shadow: 0 0 25px rgb(233, 190, 109);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 15px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    padding: 15px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.activity{
+    margin: 10px 0px;
+}
+
+.comment {
+    margin-bottom: 20px;
+}
+
+.hearth{
+    transition: color 0.4s ease;
+}
+
+.hearth:hover{
+    color: red;
+}
+
+.bookmark:hover{
+    font-size: 19px;
+}
